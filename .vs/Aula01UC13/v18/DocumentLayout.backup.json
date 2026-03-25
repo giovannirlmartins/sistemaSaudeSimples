@@ -1,0 +1,57 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Giovanni Martins\\source\\repos\\sistemaSaudeSimples\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{94CFC22B-08B5-87E2-C920-FB0351DDF57A}|Aula01UC13.csproj|c:\\users\\giovanni martins\\source\\repos\\sistemasaudesimples\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{94CFC22B-08B5-87E2-C920-FB0351DDF57A}|Aula01UC13.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94CFC22B-08B5-87E2-C920-FB0351DDF57A}|Aula01UC13.csproj|c:\\users\\giovanni martins\\source\\repos\\sistemasaudesimples\\aula01uc13.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{94CFC22B-08B5-87E2-C920-FB0351DDF57A}|Aula01UC13.csproj|solutionrelative:aula01uc13.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Giovanni Martins\\source\\repos\\sistemaSaudeSimples\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Giovanni Martins\\source\\repos\\sistemaSaudeSimples\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAiwF4AAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T00:08:00.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Aula01UC13.csproj",
+              "DocumentMoniker": "C:\\Users\\Giovanni Martins\\source\\repos\\sistemaSaudeSimples\\Aula01UC13.csproj",
+              "RelativeDocumentMoniker": "Aula01UC13.csproj",
+              "ToolTip": "C:\\Users\\Giovanni Martins\\source\\repos\\sistemaSaudeSimples\\Aula01UC13.csproj",
+              "RelativeToolTip": "Aula01UC13.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-03-25T00:07:52.598Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

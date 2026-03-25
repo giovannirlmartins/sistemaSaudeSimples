@@ -12,3 +12,18 @@ C:\Users\GiovanniRodriguesdeL\Documents\Aula01UC13\obj\Debug\net10.0\refint\Aula
 C:\Users\GiovanniRodriguesdeL\Documents\Aula01UC13\obj\Debug\net10.0\Aula01UC13.pdb
 C:\Users\GiovanniRodriguesdeL\Documents\Aula01UC13\obj\Debug\net10.0\Aula01UC13.genruntimeconfig.cache
 C:\Users\GiovanniRodriguesdeL\Documents\Aula01UC13\obj\Debug\net10.0\ref\Aula01UC13.dll
+C:\Users\Giovanni Martins\source\repos\sistemaSaudeSimples\bin\Debug\net10.0\Aula01UC13.exe
+C:\Users\Giovanni Martins\source\repos\sistemaSaudeSimples\bin\Debug\net10.0\Aula01UC13.deps.json
+C:\Users\Giovanni Martins\source\repos\sistemaSaudeSimples\bin\Debug\net10.0\Aula01UC13.runtimeconfig.json
+C:\Users\Giovanni Martins\source\repos\sistemaSaudeSimples\bin\Debug\net10.0\Aula01UC13.dll
+C:\Users\Giovanni Martins\source\repos\sistemaSaudeSimples\bin\Debug\net10.0\Aula01UC13.pdb
+C:\Users\Giovanni Martins\source\repos\sistemaSaudeSimples\obj\Debug\net10.0\Aula01UC13.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Giovanni Martins\source\repos\sistemaSaudeSimples\obj\Debug\net10.0\Aula01UC13.AssemblyInfoInputs.cache
+C:\Users\Giovanni Martins\source\repos\sistemaSaudeSimples\obj\Debug\net10.0\Aula01UC13.AssemblyInfo.cs
+C:\Users\Giovanni Martins\source\repos\sistemaSaudeSimples\obj\Debug\net10.0\Aula01UC13.csproj.CoreCompileInputs.cache
+C:\Users\Giovanni Martins\source\repos\sistemaSaudeSimples\obj\Debug\net10.0\Aula01UC13.sourcelink.json
+C:\Users\Giovanni Martins\source\repos\sistemaSaudeSimples\obj\Debug\net10.0\Aula01UC13.dll
+C:\Users\Giovanni Martins\source\repos\sistemaSaudeSimples\obj\Debug\net10.0\refint\Aula01UC13.dll
+C:\Users\Giovanni Martins\source\repos\sistemaSaudeSimples\obj\Debug\net10.0\Aula01UC13.pdb
+C:\Users\Giovanni Martins\source\repos\sistemaSaudeSimples\obj\Debug\net10.0\Aula01UC13.genruntimeconfig.cache
+C:\Users\Giovanni Martins\source\repos\sistemaSaudeSimples\obj\Debug\net10.0\ref\Aula01UC13.dll
