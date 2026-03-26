@@ -33,10 +33,7 @@ public class Program()
                 switch (opcao)
                 {
                     case 1:
-                        Console.WriteLine("Digite o nome do paciente: ");
-                        nomePaciente = Console.ReadLine() ?? "";
-                        Console.WriteLine("Digite a idade do paciente: ");
-                        idadePacienteString = Console.ReadLine();
+                        
 
                         if (int.TryParse(idadePacienteString, out idadePaciente))
                         {
