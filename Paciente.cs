@@ -8,10 +8,12 @@ public class Paciente()
     public string? idadePacienteString;
     public int idadePaciente;
     public int nivelDor;
+    public string? prioridade;
     List<string> listaVermelha = new List<string>();
     List<string> listaAmarela = new List<string>();
     List<string> listaVerde = new List<string> ();
     List<string> listaPacientes = new List<string>();
+    List<string> listaAtendidos = new List<string>();
 
     //Métodos (ações que pertencem à minha classe)
     //Adicionar paciente
@@ -75,31 +77,65 @@ public class Paciente()
         int contVerde = 0;
         listaPacientes = new List<string>();
 
-        foreach (var nome in listaVermelha)
+        // PRECISO VERIFICAR SE JÁ TEVE ATENDIMENTO DE MAIS DE 2 PESSOAS
+
+        if (listaAtendidos.Count() < 2)
         {
-            listaPacientes.Add(nome);
-        }
-        while(contAmarelo<listaAmarela.Count() || contVerde < listaVerde.Count())
-        {
-            int i = 0;
-            while (contAmarelo<listaAmarela.Count() && i<2)
+            foreach (var nome in listaVermelha)
             {
-                listaPacientes.Add(listaAmarela[contAmarelo]);
-                contAmarelo++;
-                i++;
+                listaPacientes.Add(nome);
             }
-            listaPacientes.Add(listaVerde[contVerde]);
-            contVerde++;
+            while(contAmarelo<listaAmarela.Count() || contVerde < listaVerde.Count())
+            {
+                int i = 0;
+                while (contAmarelo<listaAmarela.Count() && i<2)
+                {
+                    listaPacientes.Add(listaAmarela[contAmarelo]);
+                    contAmarelo++;
+                    i++;
+                }
+                listaPacientes.Add(listaVerde[contVerde]);
+                contVerde++;
+            }
         }
+        else
+        {
+            //preciso verificar os dois últimos atendimentos, 
+            string ultimoAtendimentoPrioridade = listaAtendidos[listaAtendidos.Count()-1]; //10-1 = 9 (ultima posição)
+            string penultimoAtendimentoPrioridade = listaAtendidos[listaAtendidos.Count()-2];// 10-2 = 8 (penultima posição)
+            if (listaVermelha.Count() > 0)
+            {
+                //adiciono vermelho
+                listaPacientes.Add(listaVermelha[0]);
+            }
+            else
+            {
+                if (ultimoAtendimentoPrioridade=="amarelo" && penultimoAtendimentoPrioridade=="amarelo")
+                {
+                    
+                }
+                else
+                {
+                    
+                }
+                
+            }
+            // caso não tenha vermelhos:
+            // se forem 2 amarelos, eu coloco um verde 
+            // caso tenha só um amarelo eu coloco outro amarelo 
+            // caso tenha vermelho, eu coloco um vermelho
+        }
+        
     }
     public void ChamarProximo()
     {
         //SABER O PRIMEIRO DA FILA
-        ListarPacientes();
+        ListarPacientes(); //sem erros
         //localização do próximo paciente -> listaPacientes[0];
         //MOSTRAR NA TELA QUEM É "SR.(A) FULANO DIRIGIR-SE AO CONSULTÓRIO"
         Console.WriteLine($"Sr.(a) {listaPacientes[0]} Dirigir-se ao Consultório");
         //REMOVER ESSE PACIENTE DA LISTA
+        listaAtendidos.Add(listaPacientes[0]);
         ExcluirPaciente();
     }
     public void ExcluirPaciente()
